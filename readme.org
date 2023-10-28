@@ -1,0 +1,7 @@
+
+
+** repl setup
+
+repl should be good to go via .dir-locals.el.
+
+cider-jack-in-clj&cljs or can just connect to server, then to cljs
