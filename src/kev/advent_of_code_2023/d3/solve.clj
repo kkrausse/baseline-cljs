@@ -1,4 +1,4 @@
-(ns kev.advent-of-code-2023.day-3.solve
+(ns kev.advent-of-code-2023.d3.solve
   (:require
    [clojure.java.io :as io]
    [clojure.string :as str]
