@@ -1,23 +1,14 @@
-{
-:paths ["src" "resources"]
- :deps  {org.clojure/clojure  {:mvn/version "1.11.1"}
+{:paths ["src" "resources"]
+ :deps  {org.clojure/clojure  {:mvn/version "1.12.0-alpha5"}
          thheller/shadow-cljs {:mvn/version "2.16.12"}
          com.google.javascript/closure-compiler-unshaded {:mvn/version "v20211006"}
            ;; common libs
          net.cgrand/xforms                               {:mvn/version "0.19.2"}
          funcool/promesa                                 {:git/url "https://github.com/funcool/promesa"
                                                           :sha     "147c15974484a4f3634e6ad095217806dbb58ee4"}
-         com.wsscode/async                               {:git/url "https://github.com/wilkerlucio/wsscode-async"
-                                                          :sha     "163b1cf5c9963d4c798aed4018461abdee754a1d"}
-         com.wsscode/promesa-bridges                     {:git/url "https://github.com/wilkerlucio/promesa-bridges"
-                                                          :sha     "9439859ef0f517a1b9e453620c0eb72fba896f9e"}
-         lambdaisland/classpath                          {:git/url "https://github.com/lambdaisland/classpath"
-                                                          :sha     "ff96d4f07d5b12b2fe0d8b206eb4a3713ad222d6"}
 
-         org.clojure/core.match {:mvn/version "1.0.0"}
+         org.clojure/core.match {:mvn/version "1.0.1"}
          org.clojure/spec.alpha {:mvn/version "0.3.214"}
-         ;; for parsing org files! https://github.com/200ok-ch/org-parser
-         org-parser/org-parser {:mvn/version "0.1.27"}
         ;; db shite
          com.github.seancorfield/next.jdbc {:mvn/version "1.2.796"}
          org.xerial/sqlite-jdbc            {:mvn/version "3.39.2.1"}
